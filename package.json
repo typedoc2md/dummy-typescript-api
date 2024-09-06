@@ -1,0 +1,16 @@
+{
+  "name": "dummy-typescript-api",
+  "version": "0.0.0",
+  "description": "A dummy TypeScript API project to showcase some documentation.",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "author": "Tom Grey",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
